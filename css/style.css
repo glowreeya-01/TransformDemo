@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.row1, .row2, .row3{
+    padding: 30px;
+    display: flex;
+    display:flex;
+    justify-content: space-between;
+}
+
+
+.box1,
+.box2, 
+.box3, 
+.box4,
+.box5,
+.box6{
+    color: white;
+    width: 220px;
+    height: 220px;
+    font-style: Merriweather;
+    font-size: 34px;
+    text-align: center;
+}
+
+
+.box1{
+    background-color: brown;
+    transform:skewY(20deg);
+   
+}
+
+
+.box2{
+    background-color: orangered;
+    transform: scaleY(1.5);
+}
+
+
+.box3{
+    background-color: palevioletred;
+    transform: translate(30px, 70px);
+    transition: all .4s;
+}
+
+
+.box1:hover, .box2:hover, .box3:hover, .box4:hover, .box5:hover{
+    transform: scale(1.2);
+}
+
+.box4{
+    background-color: greenyellow;
+    transform: rotate(70deg);
+
+}
+
+
+.box5{
+    background-color: darkslategrey;
+    transform:matrix(3,3,3,3,3);
+}
+
+
+.box6{
+    background-color: coral;
+    transform:perspective(16);
+}
+
